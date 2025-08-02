@@ -26,10 +26,11 @@
     background-repeat: no-repeat;
     max-width: 1320 px;
     max-height: 600 px;
-    margin: 50px 140px 0px 140px;
+     margin-top: 50px ;
     border-radius: 16px;
     position: relative;
     z-index: 1;
+    margin: 0 auto;
 }
 .banner-contener {
     max-width: 632 px;
@@ -91,7 +92,54 @@
 }
 .second-page{
      max-width: 802px;
-    max-height: 651px;
+   
     text-align: center;
-    margin: 179px 399px 0px 399px;
+    margin: 179px 399px 61px 399px;
+}
+
+
+/*3d page */
+.left-title{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: black;
+    padding: 126px 400px 24px 126px;
+    max-width: 882px;
+}
+.left-description{
+     font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 126px;
+    max-width: 700px;
+    
+}
+.left-link{
+     font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    padding-left: 158px;
+    padding-top: 48px;
+    max-width: 105px;
+    padding-bottom: 145px;
+}
+.left-link a{
+    color: rgba(255, 255, 255, 1);
+    style
+}
+.third-page{
+    display: flex;
+ 
+    max-width: 1320px;
+    margin-top: 61px;
+margin: 0 auto;
+
+}
+.third-background{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+}
+.right{
+    padding: 60px 120px 60px 30px;
+    max-width: 315px;
+    max-height: 460px;
 }
