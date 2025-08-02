@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+.merriweather-primary {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-secondary {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*header*/
+.background-size{
+    max-width: 1320px;
+    max-height: 600px;
+}
+
+.background-image{
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    max-width: 1320 px;
+    max-height: 600 px;
+    margin: 50px 140px 0px 140px;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+}
+.banner-contener {
+    max-width: 632 px;
+    max-height: 246 px;
+        text-align: center;
+    padding: 177px 344px;
+    
+}
+
+.banner-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    font-weight: black;
+     position: relative;
+    z-index: 2;
+    
+
+}
+.banner-description{
+     color: rgba(255, 255, 255, 1);
+    font-size: 72px;
+     font-weight: black;
+      position: relative;
+    z-index: 2;
+}
+
+
+
+/*2nd page*/
+.second-title{
+        color: rgba(255, 0, 0, 1);
+    font-size: 88px;
+    font-weight: bold;
+    margin: 0 150px 48px 150px;
+    max-width: 386px;
+    max-height: 107px;
+}
+.second-description{
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+    font-weight: medium ;
+     max-width: 400px;
+    max-height: 30px;
+        margin: 0px 146px 16px 146px;
+
+}
+
+
+
+.second-details{
+    color: rgba(7, 2, 17, 1);
+     font-size: 48px;
+    font-weight: bold ;
+     max-width: 450px;
+    max-height: 55px;
+        margin: 0px 146px 48px 146px;
+
+
+}
+.second-page{
+     max-width: 802px;
+    max-height: 651px;
+    text-align: center;
+    margin: 179px 399px 0px 399px;
+}
