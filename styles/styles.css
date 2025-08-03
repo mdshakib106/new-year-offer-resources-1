@@ -313,6 +313,51 @@ display: flex;
 .latter-title {
     margin-bottom: 22px;
 }
+
+
+/*footer*/
+.last-page{
+    display: flex;
+    max-width: 1185px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-left: 120px;
+    padding-top: 120px;
+}
+.fotter-item{
+    background-color: black;
+}
+.color-fotter{
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.icons{
+     display: flex;
+     max-width: 328px;
+     gap: 24px;
+     padding-top: 98px;
+     padding-left: 624px;
+}
+
+.last-line{
+    display: flex;
+   
+}
+.last-first{
+    padding-left: 124px;
+    padding-top: 98px;
+    padding-bottom: 150px;
+}
+.last-last{
+
+    padding-left: 870px;
+     padding-top: 98px;
+    padding-bottom: 150px;
+}
+
 /*share style*/
 .place , .date , .time{
     font-weight: 600px;
